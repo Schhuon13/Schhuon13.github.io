@@ -19,11 +19,12 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Yogurt!"
 title_separator          : "-"
-subtitle                 : "By Siekleng Chhuon for a College Class" # site tagline that appears below site title in masthead
+subtitle                 : "This is all info from Wikipedia" # site tagline that appears below site title in masthead
 name                     : "Siekleng Chhuon"
 description              : "An amazing website about yogurt."
 url                      : "https://schhuon13.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"""
-baseurl                  : # the subpath of your site, e.g. "/blog"
+#url                      : "https://localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"""
+baseurl                  : "/"
 repository               : "Schhuon13/schhuon13.github.io/" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/Turkish_strained_yogurt.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -323,3 +324,10 @@ defaults:
       comments: # true
       share: true
       related: true
+
+gems:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true

@@ -1,6 +1,7 @@
 ---
 titie: "Have you tired yogurt?"
 date: "2024-07-01 21:23:00 -0700"
+permalink: /firstblog/
 ---
 
 
